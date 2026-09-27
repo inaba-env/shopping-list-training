@@ -43,7 +43,7 @@ export interface components {
         /** Item */
         Item: {
             id: number;
-            name: string;
+            product_name: string;
             quantity: number;
             memo: string | null;
             purchased: boolean;
