@@ -13,7 +13,7 @@ class ItemFactory extends Factory
     public function definition(): array
     {
         return [
-            'product_name' => fake()->randomElement([
+            'name' => fake()->randomElement([
                 '牛乳', '卵', '食パン', 'バナナ', 'りんご',
                 'トマト', 'キャベツ', '鶏肉', '豚肉', '米',
                 'ヨーグルト', 'チーズ', '玉ねぎ', 'じゃがいも',

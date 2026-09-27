@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('items', function (Blueprint $table) {
             $table->id();
-            $table->string('product_name');
+            $table->string('name');
             $table->unsignedInteger('quantity')->default(1);
             $table->text('memo')->nullable();
             $table->boolean('purchased')->default(false);
